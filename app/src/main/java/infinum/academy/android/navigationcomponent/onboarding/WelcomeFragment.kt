@@ -28,7 +28,7 @@ class WelcomeFragment : Fragment() {
 
     private fun initListeners() {
         binding.buttonNext.setOnClickListener {
-            findNavController().navigate(R.id.toVerificationRequestFragment)
+
         }
     }
 
