@@ -14,7 +14,12 @@
         android:theme="@style/Theme.AndroidAcademy2022Playground"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".backstack.BackStackActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".navigationcomponent.NavHostActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
