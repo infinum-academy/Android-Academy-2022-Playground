@@ -9,7 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:paddingHorizontal="8dp"
-        android:text="Thanks for going through our onboarding. Have fun with the app!"
+        android:text="@string/onboarding_complete_message"
         android:textSize="32sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
