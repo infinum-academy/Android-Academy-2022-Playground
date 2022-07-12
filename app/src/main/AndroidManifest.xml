@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="lecture3.ui.SuperherosActivity"/>
+        <activity android:name="lecture3.ui.SuperheroesActivity"/>
     </application>
 
 </manifest>

@@ -3,10 +3,10 @@ package lecture3.ui
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import infinum.academy.android.R
-import infinum.academy.android.databinding.ActivitySuperherosBinding
+import infinum.academy.android.databinding.ActivitySuperheroesBinding
 import lecture3.model.Superhero
 
-class SuperherosActivity : AppCompatActivity() {
+class SuperheroesActivity : AppCompatActivity() {
 
     // TODO: Create build intent singleton method
 
@@ -22,12 +22,12 @@ class SuperherosActivity : AppCompatActivity() {
         Superhero("TMNT", R.drawable.tmnt)
     )
 
-    private lateinit var binding: ActivitySuperherosBinding
+    private lateinit var binding: ActivitySuperheroesBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivitySuperherosBinding.inflate(layoutInflater)
+        binding = ActivitySuperheroesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         initSuperherosRecycler()

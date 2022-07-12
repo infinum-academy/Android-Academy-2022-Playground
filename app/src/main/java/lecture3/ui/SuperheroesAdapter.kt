@@ -2,7 +2,7 @@ package lecture3.ui
 
 import lecture3.model.Superhero
 
-class SuperherosAdapter(
+class SuperheroesAdapter(
     private var items: List<Superhero>,
     private val onItemClickCallback: (Superhero) -> Unit
 ) {
