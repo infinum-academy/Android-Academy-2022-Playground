@@ -2,8 +2,8 @@ package infinum.academy.android
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import infinum.academy.android.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setupOnClickListeners()
     }
 
-    fun setupOnClickListeners(){
+    fun setupOnClickListeners() {
         binding.explicitButton.setOnClickListener {
             val intent = Activity2.prepareIntent(this, binding.usernameEditText.text.toString())
             startActivity(intent)

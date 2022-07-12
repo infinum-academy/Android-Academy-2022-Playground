@@ -2,8 +2,8 @@ package infinum.academy.android
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import infinum.academy.android.databinding.Activity2Binding
 
 class Activity2 : AppCompatActivity() {
