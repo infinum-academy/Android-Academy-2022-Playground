@@ -1,4 +1,4 @@
-package infinum.academy.android.navigationcomponent
+package infinum.academy.android.viewmodel
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

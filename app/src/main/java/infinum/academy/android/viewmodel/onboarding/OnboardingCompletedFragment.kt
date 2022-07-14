@@ -1,4 +1,4 @@
-package infinum.academy.android.navigationcomponent.onboarding
+package infinum.academy.android.viewmodel.onboarding
 
 import android.os.Bundle
 import android.view.LayoutInflater

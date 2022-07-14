@@ -1,4 +1,4 @@
-package infinum.academy.android.navigationcomponent.verification
+package infinum.academy.android.viewmodel.verification
 
 import android.os.Bundle
 import android.view.LayoutInflater

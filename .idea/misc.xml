@@ -10,7 +10,9 @@
         <entry key="app/src/main/res/layout/fragment_onboarding_verification.xml" value="0.12386018237082067" />
         <entry key="app/src/main/res/layout/fragment_onboarding_welcome.xml" value="0.21195652173913043" />
         <entry key="app/src/main/res/layout/fragment_upload_document.xml" value="0.12386018237082067" />
+        <entry key="app/src/main/res/layout/fragment_verification_request.xml" value="0.16843971631205673" />
         <entry key="app/src/main/res/layout/fragment_verificatoin_completed.xml" value="0.12386018237082067" />
+        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.14628623188405798" />
       </map>
     </option>
   </component>

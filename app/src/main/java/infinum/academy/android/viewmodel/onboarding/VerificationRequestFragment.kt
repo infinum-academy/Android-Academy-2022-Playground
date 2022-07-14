@@ -1,4 +1,4 @@
-package infinum.academy.android.navigationcomponent.onboarding
+package infinum.academy.android.viewmodel.onboarding
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,16 +7,16 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import infinum.academy.android.R
-import infinum.academy.android.databinding.FragmentWelcomeBinding
+import infinum.academy.android.databinding.FragmentVerificationRequestBinding
 
-class WelcomeFragment : Fragment() {
+class VerificationRequestFragment : Fragment() {
 
-    private var _binding: FragmentWelcomeBinding? = null
+    private var _binding: FragmentVerificationRequestBinding? = null
 
     private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        _binding = FragmentWelcomeBinding.inflate(inflater, container, false)
+        _binding = FragmentVerificationRequestBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -27,8 +27,12 @@ class WelcomeFragment : Fragment() {
     }
 
     private fun initListeners() {
-        binding.buttonNext.setOnClickListener {
+        binding.buttonVerify.setOnClickListener {
+            findNavController().navigate(R.id.toUploadDocumentFragment)
+        }
 
+        binding.buttonLater.setOnClickListener {
+            findNavController().navigate(R.id.toOnboardingCompletedFragment)
         }
     }
 

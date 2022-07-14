@@ -6,12 +6,12 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="infinum.academy.android.navigationcomponent.onboarding.WelcomeFragment"
+        android:name="infinum.academy.android.viewmodel.onboarding.WelcomeFragment"
         tools:layout="@layout/fragment_welcome"/>
 
     <fragment
         android:id="@+id/verificationRequestFragment"
-        android:name="infinum.academy.android.navigationcomponent.onboarding.VerificationRequestFragment"
+        android:name="infinum.academy.android.viewmodel.onboarding.VerificationRequestFragment"
         tools:layout="@layout/fragment_verification_request">
 
         <action
@@ -25,12 +25,12 @@
 
     <fragment
         android:id="@+id/onboardingCompletedFragment"
-        android:name="infinum.academy.android.navigationcomponent.onboarding.OnboardingCompletedFragment"
+        android:name="infinum.academy.android.viewmodel.onboarding.OnboardingCompletedFragment"
         tools:layout="@layout/fragment_onboarding_completed"/>
 
     <fragment
         android:id="@+id/uploadDocumentFragment"
-        android:name="infinum.academy.android.navigationcomponent.verification.UploadDocumentFragment"
+        android:name="infinum.academy.android.viewmodel.verification.UploadDocumentFragment"
         tools:layout="@layout/fragment_upload_document">
 
         <action
@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/verificationCompletedFragment"
-        android:name="infinum.academy.android.navigationcomponent.verification.VerificationCompletedFragment"
+        android:name="infinum.academy.android.viewmodel.verification.VerificationCompletedFragment"
         tools:layout="@layout/fragment_verificatoin_completed">
 
         <action
