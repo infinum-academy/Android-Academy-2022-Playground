@@ -9,43 +9,4 @@
         android:name="infinum.academy.android.viewmodel.onboarding.WelcomeFragment"
         tools:layout="@layout/fragment_welcome"/>
 
-    <fragment
-        android:id="@+id/verificationRequestFragment"
-        android:name="infinum.academy.android.viewmodel.onboarding.VerificationRequestFragment"
-        tools:layout="@layout/fragment_verification_request">
-
-        <action
-            android:id="@+id/toOnboardingCompletedFragment"
-            app:destination="@id/onboardingCompletedFragment"/>
-
-        <action
-            android:id="@+id/toUploadDocumentFragment"
-            app:destination="@id/uploadDocumentFragment"/>
-    </fragment>
-
-    <fragment
-        android:id="@+id/onboardingCompletedFragment"
-        android:name="infinum.academy.android.viewmodel.onboarding.OnboardingCompletedFragment"
-        tools:layout="@layout/fragment_onboarding_completed"/>
-
-    <fragment
-        android:id="@+id/uploadDocumentFragment"
-        android:name="infinum.academy.android.viewmodel.verification.UploadDocumentFragment"
-        tools:layout="@layout/fragment_upload_document">
-
-        <action
-            android:id="@+id/toVerificationCompletedFragment"
-            app:destination="@id/verificationCompletedFragment"/>
-    </fragment>
-
-    <fragment
-        android:id="@+id/verificationCompletedFragment"
-        android:name="infinum.academy.android.viewmodel.verification.VerificationCompletedFragment"
-        tools:layout="@layout/fragment_verificatoin_completed">
-
-        <action
-            android:id="@+id/toOnboardingCompletedFragment"
-            app:destination="@id/onboardingCompletedFragment"/>
-    </fragment>
-
 </navigation>

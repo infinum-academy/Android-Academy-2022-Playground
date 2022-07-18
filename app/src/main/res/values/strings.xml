@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">AndroidAcademy2022Playground</string>
-    <string name="next">Next</string>
+    <string name="welcome_message">Welcome to the quiz game!</string>
+    <string name="choose_difficulty">Choose difficulty:</string>
+    <string name="easy_difficulty">Easy</string>
+    <string name="hard_difficulty">Hard</string>
+    <string name="start_game">Start game</string>
+    <string name="nickname">Nickname</string>
     <string name="verify">Verify</string>
     <string name="verify_later">Verify later</string>
     <string name="default_username">user</string>
     <string name="upload_document">Upload document</string>
     <string name="cancel">Cancel</string>
-    <string name="welcome_message">Welcome to this awesome onboarindg!</string>
     <string name="verification_request_description">Hello %s! We need to verify your identity to offer you full functionality of the
         app!</string>
     <string name="onboarding_complete_message">Thanks for going through our onboarding. Have fun with the app!</string>
