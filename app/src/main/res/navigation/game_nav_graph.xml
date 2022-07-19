@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboardingNavGraph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="infinum.academy.android.viewmodel.onboarding.WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+
+        <action
+            android:id="@+id/toGameFragment"
+            app:destination="@id/gameFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="infinum.academy.android.viewmodel.onboarding.GameFragment"
+        tools:layout="@layout/fragment_game">
+
+        <argument
+            android:name="isHardMode"
+            app:argType="boolean"/>
+
+    </fragment>
+
+</navigation>

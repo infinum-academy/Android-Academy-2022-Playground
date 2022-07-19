@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AndroidAcademy2022Playground</string>
     <string name="welcome_message">Welcome to the quiz game!</string>
+    <string name="welcome_message_format">Welcome %s to the quiz game!</string>
     <string name="choose_difficulty">Choose difficulty:</string>
     <string name="easy_difficulty">Easy</string>
     <string name="hard_difficulty">Hard</string>

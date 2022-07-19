@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -36,6 +37,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nicknameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -70,8 +72,7 @@
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/easy_difficulty"
-                android:checked="true"/>
+                android:text="@string/easy_difficulty"/>
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/hardDifficulty"
@@ -90,6 +91,7 @@
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:gravity="center"
+            android:enabled="false"
             android:text="@string/start_game"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
