@@ -1,4 +1,4 @@
-package infinum.academy.android.viewmodel.onboarding
+package infinum.academy.android.viewmodel.quiz.game
 
 import android.os.Bundle
 import android.view.LayoutInflater

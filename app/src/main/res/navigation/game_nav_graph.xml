@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="infinum.academy.android.viewmodel.onboarding.WelcomeFragment"
+        android:name="infinum.academy.android.viewmodel.quiz.welcome.WelcomeFragment"
         tools:layout="@layout/fragment_welcome">
 
         <action
@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/gameFragment"
-        android:name="infinum.academy.android.viewmodel.onboarding.GameFragment"
+        android:name="infinum.academy.android.viewmodel.quiz.game.GameFragment"
         tools:layout="@layout/fragment_game">
 
         <argument

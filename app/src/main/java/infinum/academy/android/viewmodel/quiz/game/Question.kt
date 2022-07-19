@@ -1,4 +1,4 @@
-package infinum.academy.android.viewmodel.onboarding
+package infinum.academy.android.viewmodel.quiz.game
 
 data class Question(
     val question: String,
