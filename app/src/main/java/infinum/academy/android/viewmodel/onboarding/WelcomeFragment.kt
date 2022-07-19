@@ -37,7 +37,7 @@ class WelcomeFragment : Fragment() {
 
         binding.startGameButton.setOnClickListener {
             findNavController().navigate(
-                WelcomeFragmentDirections.toGameFragment(binding.hardDifficulty.isChecked)
+                WelcomeFragmentDirections.toGameFragment(binding.impossibleDifficulty.isChecked)
             )
         }
     }

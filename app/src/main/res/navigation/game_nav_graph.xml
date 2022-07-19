@@ -20,7 +20,7 @@
         tools:layout="@layout/fragment_game">
 
         <argument
-            android:name="isHardMode"
+            android:name="isImpossibleDifficulty"
             app:argType="boolean"/>
 
     </fragment>

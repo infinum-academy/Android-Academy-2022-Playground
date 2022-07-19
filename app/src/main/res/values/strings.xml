@@ -3,10 +3,12 @@
     <string name="welcome_message">Welcome to the quiz game!</string>
     <string name="welcome_message_format">Welcome %s to the quiz game!</string>
     <string name="choose_difficulty">Choose difficulty:</string>
-    <string name="easy_difficulty">Easy</string>
-    <string name="hard_difficulty">Hard</string>
+    <string name="normal_difficulty">Normal</string>
+    <string name="impossible_difficulty">Impossible</string>
     <string name="start_game">Start game</string>
     <string name="nickname">Nickname</string>
+    <string name="you_won">You won! 🎉</string>
+    <string name="you_lost">You lost! 😿</string>
     <string name="verify">Verify</string>
     <string name="verify_later">Verify later</string>
     <string name="default_username">user</string>

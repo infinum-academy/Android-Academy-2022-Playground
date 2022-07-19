@@ -68,18 +68,18 @@
             app:singleSelection="true">
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/easyDifficulty"
+                android:id="@+id/normalDifficulty"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/easy_difficulty"/>
+                android:text="@string/normal_difficulty"/>
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/hardDifficulty"
+                android:id="@+id/impossibleDifficulty"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hard_difficulty"
+                android:text="@string/impossible_difficulty"
                 android:checked="true"/>
 
         </com.google.android.material.chip.ChipGroup>
