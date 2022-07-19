@@ -80,15 +80,15 @@ class GameFragment : Fragment() {
         binding.secondAnswer.text = question.answers[1].answer
 
         binding.firstChoice.setOnClickListener {
-            validateResult(question, 0)
+            checkResult(question, 0)
         }
 
         binding.secondChoice.setOnClickListener {
-            validateResult(question, 1)
+            checkResult(question, 1)
         }
     }
 
-    private fun validateResult(question: Question, pickedAnswer: Int) {
+    private fun checkResult(question: Question, pickedAnswer: Int) {
         binding.gameResultOverlay.isVisible = true
         binding.resultMessage.text = when {
             args.isImpossibleDifficulty -> getString(R.string.you_lost)
