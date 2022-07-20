@@ -3,6 +3,7 @@ package infinum.academy.android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import androidx.activity.viewModels
 import infinum.academy.android.databinding.ActivityRegistrationBinding
 
 class RegistrationActivity : AppCompatActivity() {
@@ -15,9 +16,11 @@ class RegistrationActivity : AppCompatActivity() {
 
         binding = ActivityRegistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
+    }
 
-        binding.registrationButton.setOnClickListener {
-            view
+    private fun initRegisterButton() = with(binding) {
+        registrationButton.setOnClickListener {
+
         }
     }
 }
