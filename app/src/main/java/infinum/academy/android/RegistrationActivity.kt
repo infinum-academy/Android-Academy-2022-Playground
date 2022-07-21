@@ -11,7 +11,7 @@ import infinum.academy.android.networking.ApiModule
 
 class RegistrationActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityRegistrationBinding
+    private lateinit var binding: ActivityRegistrationBinding
     private val viewModel: RegistrationViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,7 @@ class RegistrationActivity : AppCompatActivity() {
         }
     }
 
-    fun displayRegistrationMessage(isSuccessful: Boolean) {
+    private fun displayRegistrationMessage(isSuccessful: Boolean) {
         val dialog = BottomSheetDialog(this, R.style.AppBottomSheetDialogTheme)
         val bottomSheetBinding = DialogRegistrationStateBinding.inflate(layoutInflater)
 
@@ -45,6 +45,7 @@ class RegistrationActivity : AppCompatActivity() {
                     R.drawable.ic_outline_check_circle_24
                 )
             )
+            bottomSheetBinding.registrationMessage.text = "Registration successful"
         } else {
             bottomSheetBinding.registrationStatePicture.setImageDrawable(
                 ContextCompat.getDrawable(
@@ -52,6 +53,10 @@ class RegistrationActivity : AppCompatActivity() {
                     R.drawable.ic_outline_do_not_disturb_alt_24
                 )
             )
+            bottomSheetBinding.registrationMessage.text = "Registration not successful"
+        }
+        bottomSheetBinding.closeDialogIcon.setOnClickListener {
+            dialog.dismiss()
         }
 
         dialog.setContentView(bottomSheetBinding.root)
