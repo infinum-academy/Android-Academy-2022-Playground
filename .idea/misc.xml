@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/dialog_registration_state.xml" value="0.1955128205128205" />
       </map>
     </option>
   </component>
