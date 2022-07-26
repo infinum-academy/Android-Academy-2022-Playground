@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         initSuperherosRecycler()
 
         viewModel.getSuperheroesLiveData().observe(this) { superheroes ->
-            updateItems(superheroes.map { Superhero(it.name, it.imageResourceId) })
+            updateItems(superheroes)
         }
 
         initAddSuperheroButton()
