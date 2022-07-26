@@ -1,10 +1,6 @@
-package infinum.academy.android
+package infinum.academy.android.db
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
 
 //TODO: Define DAO
 interface SuperheroDao {

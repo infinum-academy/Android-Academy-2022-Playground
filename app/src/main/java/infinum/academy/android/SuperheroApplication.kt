@@ -1,6 +1,7 @@
 package infinum.academy.android
 
 import android.app.Application
+import infinum.academy.android.db.SuperheroEntity
 import java.util.concurrent.Executors
 
 class SuperheroApplication : Application() {

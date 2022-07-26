@@ -1,4 +1,4 @@
-package infinum.academy.android
+package infinum.academy.android.db
 
 import android.content.Context
 import androidx.room.RoomDatabase
