@@ -2,16 +2,16 @@ package infinum.academy.android
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import infinum.academy.android.databinding.ActivityDetailsBinding
+import infinum.academy.android.databinding.ActivityAcademyInfoBinding
 
-class DetailsActivity : AppCompatActivity() {
+class AcademyInfoActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDetailsBinding
+    private lateinit var binding: ActivityAcademyInfoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityDetailsBinding.inflate(layoutInflater)
+        binding = ActivityAcademyInfoBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
     }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AcademyInfoActivity"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_button_label"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/sloveniaLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/slovenia_label"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"/>
+
+        <!--        TODO add custom view-->
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/croatiaLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/croatia_label"
+            android:textSize="24sp"/>
+
+        <!--        TODO add custom view-->
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/montenegroLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/montenegro_label"
+            android:textSize="24sp"/>
+
+        <!--        TODO add custom view-->
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/macedoniaLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/macedonia_label"
+            android:textSize="24sp"/>
+
+        <!--        TODO add custom view-->
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

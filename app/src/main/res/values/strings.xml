@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidAcademy2022Playground</string>
+    <string name="slovenia_label">Slovenia</string>
+    <string name="croatia_label">Croatia</string>
+    <string name="montenegro_label">Montenegro</string>
+    <string name="macedonia_label">Macedonia</string>
+    <string name="animation_button_label">Animate</string>
 </resources>
