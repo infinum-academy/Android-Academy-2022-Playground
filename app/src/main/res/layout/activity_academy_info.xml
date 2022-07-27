@@ -10,8 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:context=".AcademyInfoActivity"
-        android:paddingBottom="16dp">
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        tools:context=".AcademyInfoActivity">
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
