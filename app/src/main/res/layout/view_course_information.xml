@@ -6,13 +6,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:clipToPadding="false"
     android:clipChildren="false"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="24dp"
-        android:elevation="12dp">
+        app:cardElevation="12dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -40,6 +42,7 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/lecturerOneImage"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize20Percent"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintDimensionRatio="1:1"
@@ -47,10 +50,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/middleGuideline"
                 android:layout_margin="16dp"
-                tools:src="@drawable/turic_renato"/>
+                android:src="@drawable/turic_renato"/>
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/lecturerTwoImage"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize20Percent"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintDimensionRatio="1:1"
@@ -58,7 +62,7 @@
                 app:layout_constraintStart_toEndOf="@id/middleGuideline"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_margin="16dp"
-                tools:src="@drawable/floreani_filip"/>
+                android:src="@drawable/floreani_filip"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
