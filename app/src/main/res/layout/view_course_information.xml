@@ -36,7 +36,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginHorizontal="16dp"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:text="@string/course_info_card_title"/>
 
             <com.google.android.material.imageview.ShapeableImageView
